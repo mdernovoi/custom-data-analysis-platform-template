@@ -1,0 +1,12 @@
+
+# Ignore everything in infrastructure/secrets/ except for the .gitkeep file.
+infrastructure/secrets/*
+!infrastructure/secrets/.gitkeep
+
+# Ignore everything in infrastructure/config/ except for the .gitkeep file.
+infrastructure/config/*
+!infrastructure/config/.gitkeep
+
+# Ignore everything in infrastructure/ansible/ except for the .gitkeep file.
+infrastructure/ansible/*
+!infrastructure/ansible/.gitkeep
